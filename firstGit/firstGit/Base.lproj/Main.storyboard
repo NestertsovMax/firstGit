@@ -103,7 +103,6 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="fideSecindImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c7m-HW-QB8"/>
                                     <action selector="hideSecondImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r8e-nY-WmJ"/>
                                 </connections>
                             </button>

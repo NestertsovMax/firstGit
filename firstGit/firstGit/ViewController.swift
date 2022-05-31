@@ -18,21 +18,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func hideFirstImage(_ sender: UIButton) {
-        imageFirst.isHidden = sender.isTouchInside
+        imageFirst.isHidden = !imageFirst.isHidden
     }
     
     @IBAction func hideSecondImage(_ sender: UIButton) {
-        imageSecond.isHidden = sender.isTouchInside
+        imageSecond.isHidden = !imageSecond.isHidden
     }
     
     @IBAction func hideThirdImage(_ sender: UIButton) {
-        imageThird.isHidden = sender.isTouchInside
+        imageThird.isHidden = !imageThird.isHidden
     }
     
     @IBAction func showAllImage(_ sender: UIButton) {
-        imageFirst.isHidden = !sender.isTouchInside
-        imageSecond.isHidden = !sender.isTouchInside
-        imageThird.isHidden = !sender.isTouchInside
+        imageFirst.isHidden = false
+        imageSecond.isHidden = false
+        imageThird.isHidden = false
     }
 }
 
