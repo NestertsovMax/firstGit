@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageFirst: UIImageView!
+    @IBOutlet weak var imageSecond: UIImageView!
+    @IBOutlet weak var imageThird: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func hideFirstImage(_ sender: Any) {
+    }
+    
+    @IBAction func fideSecindImage(_ sender: Any) {
+    }
+    @IBAction func hideThirdImage(_ sender: Any) {
+    }
+    @IBAction func showAllImage(_ sender: Any) {
+    }
 }
 
