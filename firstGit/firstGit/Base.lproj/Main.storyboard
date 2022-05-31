@@ -32,7 +32,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="showAllImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JPu-gh-DJs"/>
+                                    <action selector="showAllImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9i-yn-DSZ"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-ww-QRC">
@@ -85,7 +85,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="hideFirstImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rww-LN-yFU"/>
+                                    <action selector="hideFirstImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5bm-Y2-04w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCD-2J-Ryd">
@@ -104,6 +104,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="fideSecindImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c7m-HW-QB8"/>
+                                    <action selector="hideSecondImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r8e-nY-WmJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUT-hQ-oep">
@@ -121,7 +122,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="hideThirdImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Etm-Jr-wxT"/>
+                                    <action selector="hideThirdImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6D8-zN-rBH"/>
                                 </connections>
                             </button>
                         </subviews>
