@@ -31,6 +31,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="showAllImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9i-yn-DSZ"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-ww-QRC">
                                 <rect key="frame" x="34" y="164" width="204" height="149"/>
@@ -81,6 +84,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="hideFirstImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5bm-Y2-04w"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCD-2J-Ryd">
                                 <rect key="frame" x="286" y="429" width="107" height="66"/>
@@ -96,6 +102,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="hideSecondImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r8e-nY-WmJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUT-hQ-oep">
                                 <rect key="frame" x="286" y="643" width="107" height="66"/>
@@ -111,11 +120,19 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="hideThirdImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6D8-zN-rBH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="imageFirst" destination="VgN-H3-kyH" id="iOD-lp-ddN"/>
+                        <outlet property="imageSecond" destination="PSu-AY-Gdk" id="PgZ-mi-cdl"/>
+                        <outlet property="imageThird" destination="YOS-ys-bod" id="TIa-3V-61A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
