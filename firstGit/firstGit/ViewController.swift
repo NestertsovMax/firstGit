@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet private weak var imageFirst: UIImageView!
-       @IBOutlet private weak var imageSecond: UIImageView!
-       @IBOutlet private weak var imageThird: UIImageView!
+    @IBOutlet private weak var imageSecond: UIImageView!
+    @IBOutlet private weak var imageThird: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
